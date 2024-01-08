@@ -1,0 +1,629 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+/* align items
+    flex-start | flex-end | center | stretch | baseline */
+/* justify content
+     flex-start | flex-end | center | space between | space-around | space-evenly */
+/* display
+     row | row reverse | column | column reverse */
+
+.gambr {
+    width: 100%;
+    height: 300px;
+    background-image: url(img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -200px;
+    background-attachment: fixed;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    width: 1400px;
+}
+
+:root {
+    --gradient: linear-gradient(59deg, rgba(0, 21, 255, 1) 0%, rgba(9, 9, 121, 1) 53%, rgba(4, 3, 62, 1) 86%, rgb(36, 0, 5)97%);
+}
+
+.bg {
+    background: rgb(0, 212, 255);
+    background-image: var(--gradient);
+    margin-bottom: 65px;
+    animation: gradient 5s infinite alternate;
+    padding-top: 30px;
+    padding-bottom: 100px;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: left;
+    }
+
+
+    100% {
+        background-position: right;
+    }
+
+}
+
+
+.link {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: azure;
+}
+
+
+a:hover {
+    color: rgb(176, 176, 176);
+
+}
+
+.select2:hover {
+    color: rgb(176, 176, 176);
+}
+
+.select2 {
+    border: none;
+    outline: none;
+    width: 80px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.0);
+    color: azure;
+    margin-top: -7px;
+    padding: 5px;
+}
+
+.bar {
+    color: azure;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+    /* position: fixed; */
+    /* background-image: var(--gradient); */
+}
+
+.titik {
+    color: darkgray;
+}
+
+.financing {
+    margin-right: 300px;
+
+}
+
+.fi-sr-phone-call {
+    color: azure;
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    margin-top: -10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.fi-sr-phone-call:hover {
+    border: 1px solid azure;
+
+}
+
+.fi-sr-phone-call:hover:active {
+    transform: scale(0.96);
+
+}
+
+.nomor {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+
+
+.text1 {
+    color: azure;
+    margin-top: 180px;
+    font-size: 60px;
+}
+
+.text2 {
+    color: azure;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+.img2 {
+
+    width: 600px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.img2:hover {
+    transform: scale(1.20);
+
+}
+
+.tombol {
+    margin-top: 70px;
+    color: rgb(0, 21, 255, 1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    background-color: azure;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+
+.tombol:hover {
+    background-color: rgba(255, 255, 255, 0.0);
+    color: azure;
+    border: 1px solid azure;
+    border-color: azure;
+}
+
+.tombol2 {
+    background-color: rgba(255, 255, 255, 0.0);
+    color: azure;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    border: none;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content2 {
+    margin-top: 100px;
+}
+
+.content3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img3 {
+    width: 600px;
+    border-radius: 10px;
+    margin-left: -50px;
+    margin-bottom: 60px;
+}
+
+.text3 {
+    margin-left: 50px;
+    font-size: 25px;
+
+}
+
+.text4 {
+    font-size: 15px;
+}
+
+.icon2 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color: cornflowerblue;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-size: 20px;
+
+}
+
+.icon3 {
+    margin-left: -60px;
+    margin-bottom: 60px;
+    padding: 20px;
+    border-radius: 5px;
+    color: cornflowerblue;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-size: 20px;
+
+}
+
+.bg2 {
+
+    margin: auto;
+    padding-top: 60px;
+    background-color: white;
+    margin-top: -65px;
+}
+
+.icon33 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.text5 {
+    margin-left: 30px
+}
+
+.text6 {
+    margin-left: -60px;
+}
+
+.bg3 {
+    background-image: var(--gradient);
+    width: 1400px;
+    height: 300px;
+    color: azure;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+.kata {
+    display: flex;
+    padding: 10px;
+    margin-left: 100px;
+    width: 300px;
+}
+
+.gambar {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.tulisan {
+    margin-left: 40px;
+}
+
+.bg4 {
+    display: inline-block;
+    background-color: white;
+}
+
+.divbg4 {
+    display: flex;
+    margin-left: 50px;
+}
+
+.iconbg4 {
+    display: flex;
+    margin-bottom: 80px;
+    padding: 20px;
+    border-radius: 5px;
+    color: cornflowerblue;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-size: 20px;
+
+}
+
+.textbg4 {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.judul1 {
+    margin: 50px;
+    font-size: 30px;
+}
+
+.imgbg4 {
+    width: 650px;
+    margin-top: -1000px;
+    margin-left: 650px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.bg5 {
+    background-color: rgb(233, 233, 233);
+    padding: 30px;
+
+}
+
+.judulbg5 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+    background-color: rgb(233, 233, 233);
+}
+
+.subjudulbg5 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.kotak {
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 50px;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.iconbg5 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 40px;
+    color: cornflowerblue;
+
+}
+
+.textbg5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.tombolbg5 {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 120px;
+    margin: auto;
+    border: 2px solid cornflowerblue;
+    color: cornflowerblue;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.tombolbg5:hover {
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+.contentbg5 {
+    display: flex;
+    margin-left: 15px;
+}
+
+.bg6 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    background-image: var(--gradient);
+    color: white;
+}
+
+
+
+.contentbg6 {
+    font-size: 35px;
+    padding: 1px;
+}
+
+.bungkus {
+    margin-left: 55px;
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+
+.tombolbg66 {
+    margin-left: 1000px;
+    margin-top: -210px;
+    color: rgba(0, 21, 255, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: azure;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    box-sizing: border-box;
+
+}
+
+.tombolbg66:hover {
+    background-color: rgba(255, 255, 255, 0.0);
+    color: azure;
+    border: 1px solid azure;
+    border-color: azure;
+}
+
+.textbg6 {
+    margin-bottom: 150px;
+    width: 500px;
+}
+
+.bg7 {
+    margin-top: 35px;
+}
+
+.judulbg7 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+    background-color: rgb(255, 255, 255);
+}
+
+.subjudulbg7s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.tombolbg7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tmbol1 {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.tmbol1:hover {
+    background-color: white;
+    color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+.swiper-wrapper .swiper-slide {
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-right: -500px;
+    margin-bottom: 50px;
+    /* width: 200px; */
+    box-shadow: 0 1px 15px rgb(0 0 0 / 0.5);
+    border-radius: 5px;
+    background-color: cornflowerblue;
+
+}
+
+.imgktk {
+    width: 400px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.ktk1 {
+    width: 400px;
+    padding: 20px;
+}
+
+.bg8 {
+    padding: 100px;
+    background-image: var(--gradient);
+    font-size: 17px;
+    height: 450px;
+}
+
+.container {  
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 2fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "about company navigation"
+      "telepon . ."
+      ". . .";
+  }
+  
+.telepon { 
+    color: white;
+    grid-area: telepon;
+
+ }
+  
+.about { 
+    grid-area: about; 
+    color: white;
+}
+
+.end {
+    color: rgb(170, 170, 170);
+    transition: 0.2s;
+}
+
+span:hover {
+    color: white;
+}
+
+.company {
+    color: white;
+    grid-area: company;
+    margin-left: 100px;
+}
+
+.company1 {
+    color: white;
+    grid-area: company;
+    margin-left: 250px;
+    margin-top: 35px;
+}
+
+li {
+    list-style: none;
+}
+
+.jarak {
+    margin-bottom: 5px;
+}
+
+.navigation {
+    color: white;
+    grid-area: navigation;
+    margin-left: 100px;
+}
+
+.fi-rr-comment {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.4s;
+    /* display: flex; */
+    justify-content: flex-start;
+}
+
+.fi-rr-comment:hover {
+    color: rgba(0, 21, 255, 1);
+    background-color: white;
+}
+
+.ikon {
+    margin-top: 20px;
+}
+
+.ikon ul li{
+    display: inline;
+}
+
+.textend {
+    color: white;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 20px;
+}
